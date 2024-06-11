@@ -44,14 +44,7 @@ public class MyConfig {
             memory.createUser(myUsers);
         }
 
-
-//        UserDetails admin= User
-//                .withUsername("useradmin")
-//                .password(passwordEncoder().encode("123"))
-//                .roles("admin")
-//                .build();
-//
-//        memory.createUser(admin);
+//main
         return memory;
     }
     @Bean
