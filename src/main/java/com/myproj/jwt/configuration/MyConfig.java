@@ -44,7 +44,7 @@ public class MyConfig {
             memory.createUser(myUsers);
         }
 
-//main-master
+//master to main
         return memory;
     }
     @Bean
